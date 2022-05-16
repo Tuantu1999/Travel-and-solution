@@ -1,0 +1,96 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 18px;
+    background-color: #efefef;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(241, 238, 3);
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+}
+
+.mb--menu{
+    display: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+ul li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    line-height: 60px;
+}
+
+.banner{
+    background-image: url("https://tgroup.vn/uploads/images/hanoi-halong/ho-hoan-kiem-ha-noi-tgroup-travel-16.jpg");
+    background-size: cover;
+    position: relative;
+    height: 600px;
+}
+.banner--content{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    color: antiquewhite;
+}
+
+.header--main h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.header--main{
+    margin-bottom: 50px;
+}
+
+.input-group{
+    padding: 30px 30px;
+}
+
+.butn{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 576px){
+    .mb--menu{
+        display: inline-block;
+        line-height: 60px;
+    }
+    .desk--menu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .header--menu{
+        
+    }
+    .banner{
+        background-image: none;
+    }
+    .banner--content{
+        top: 120px;
+        left: 80px;
+        color: black;
+        border-bottom: grey solid 2px;
+    }
+    .header--main h1{
+        margin-top: -200px;
+    }
+}

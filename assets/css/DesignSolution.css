@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/*Title*/
+.title-part{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title-part ul{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+}
+.title-part ul li{
+    height: 100%;
+    width: 50px;
+    background-color: #0c80a1;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.title-part ul li a{
+    text-decoration: none;
+    color: white;
+}
+/*Menu*/
+.menu{
+    background-color: #0c80a1;
+}
+/*Images*/
+.Pictures{
+    height: 50vh;
+    background-image: url(/assets/img/aleks-dorohovich-njdwuhmay8a-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*Info*/
+.portfolio-part{
+    height: 400px;
+    width: 100%;
+    padding: 0 20% 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+}
+.portfolio-part .but{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.portfolio-part .but .btn{
+    background-color: #0c80a1;
+    width: 150px;
+    font-size: 15px;
+}
+/*Mission*/
+.mission .row .collumn{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.mission .row .collumn .title{
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mission .row .collumn img{
+    width: 100%;
+}
+.mission .row .collumn .detail{
+    height: 30%;
+}
+/*Staff*/
+.employees .row .collumn{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.employees .row .collumn img{
+    width: 15%;
+}
+.employees .row .collumn .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+/*Contact*/
+.contact-part{
+    background-color: #fafafa;
+    padding-top: 5%;
+}
+.contact-part .row .collumn.one{
+    height: 350px;
+    display: grid;
+    grid-template-rows: 10% auto 40%;
+}
+.contact-part .row .collumn.one .title, .contact-part .row .collumn.one .logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-part .row .collumn.one .logo img{
+    width: 40%;
+}
+.contact-part .row .collumn.two{
+    height: 500px;
+    display: grid;
+    grid-template-rows: 10% auto;
+}
+.contact-part .row .collumn.two .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-part .row .collumn.two .text.two{
+    display: grid;
+    grid-template-columns: 40% auto;
+}
+/*Footer*/
+.footer-part{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+.footer-part ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer-part ul li{
+    list-style: none;
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

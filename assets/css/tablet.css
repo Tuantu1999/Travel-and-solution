@@ -1,0 +1,38 @@
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width:991px) {
+    .header{
+        background-color: #556270;
+        color: #ffffff;
+        top: 0px;
+    }
+    .header__navbar ul li a{
+        color: #ffffff;
+    }
+    .banner{
+        background-image: none;
+        border-bottom: #556270 1px solid;
+        height: 200px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+    .banner .banner--content{
+        color: black;
+        font-size: 13px;
+        top: 60px;
+        left: 20px;
+    }
+    .banner--content p{
+        color: rgb(112, 112, 231);
+    }
+    
+    .list_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .footer--content .footer--text{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
